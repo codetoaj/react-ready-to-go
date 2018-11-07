@@ -18,10 +18,10 @@ class Header extends Component {
                 <Link to="/" className="nav-link"><i className="fa fa-home"></i> Home</Link>
               </li>
               <li className="nav-item">
-                <Link to="/features" className="nav-link"><i class="fa fa-puzzle-piece"></i> Features</Link>
+                <Link to="/features" className="nav-link"><i className="fa fa-puzzle-piece"></i> Features</Link>
               </li>
               <li className="nav-item">
-                <Link to="/pricing" className="nav-link"><i class="fa fa-money"></i> Pricing</Link>
+                <Link to="/pricing" className="nav-link"><i className="fa fa-money"></i> Pricing</Link>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
