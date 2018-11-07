@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 class Header extends Component {
   render() {
@@ -14,13 +15,13 @@ class Header extends Component {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="#"><i class="fa fa-home"></i> Home <span className="sr-only">(current)</span></a>
+                <Link to="/" className="nav-link"><i className="fa fa-home"></i> Home</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#"><i class="fa fa-puzzle-piece"></i> Features</a>
+                <Link to="/features" className="nav-link"><i class="fa fa-puzzle-piece"></i> Features</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#"><i class="fa fa-money"></i> Pricing</a>
+                <Link to="/pricing" className="nav-link"><i class="fa fa-money"></i> Pricing</Link>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
